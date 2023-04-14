@@ -1,0 +1,92 @@
+
+body{
+ background-image: url(../img/Infinite-White-full.jpg);
+}
+body h1 {
+  font-family: Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: orange; /* cambiamos el color a naranja */
+  /* otros estilos de fuente aquí */
+}
+body p{
+text-align:left;
+margin: 0 auto;
+width: 60%;
+}
+a {
+  color: gray; /* color de los enlaces no visitados */
+  text-decoration: none; /* eliminamos el subrayado */
+  
+}
+a:visited{
+  color: gray; /* color de los enlaces no visitados */
+  text-decoration: none; /* eliminamos el subrayado */
+
+}
+
+a:hover {
+  color: orange; /* cambiamos el color al pasar el ratón por encima */
+  font-size: 1.1em; /* aumentamos el tamaño de la letra al pasar el ratón por encima */
+}
+.imagenPrincipal{
+display: block;
+ margin: auto;
+ }
+.tabla {
+background-color:#FFFFFF;
+border-collapse: collapse;
+ margin: auto;
+ width:50%;
+ border:2px solid black;
+}
+.tabla thead {
+background-color:orange;
+color:white;
+
+}
+th, td {
+  padding: 8px;
+}
+thead td{
+text-align:center;
+}
+ul{
+margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* ajusta la fuente */
+  font-size: 16px; /* ajusta el tamaño del texto */
+  color: #4d5b73; /* ajusta el color del texto */
+}
+
+
+.cuadrado{
+  list-style: square;
+  
+}
+.cirulovacio{
+list-style:circle;
+}
+.disco{
+
+list-style:disc;
+}
+form table, form table select, form table textarea {
+font-family:"Comic Neue";
+font-size:11px;
+
+
+}
+.reserva{
+background-color:#FFFFFF;
+border-collapse: collapse;
+ margin: auto;
+ width:40%;
+ border:2px solid black;
+
+}
+.menu-superior{
+	width:30%;
+	margin:auto;
+	border:0px;
+}

@@ -1,0 +1,128 @@
+<! DOCTYPE HTML >
+<html>
+<head>
+<meta http-equiv="content-type" charset="UTF-8">
+<link rel="stylesheet" href="../css/estilo.css">
+<meta http-equiv="content-type" charset="UTF-8">
+<meta name="nombre" content="reserva de mesa">
+<meta name="description" content="módulo de lenguaje de marcas">
+<meta name="author" content="David Herrero">
+<meta name="keywords" content="html, marcas, feedback1, reserva">
+<title>Reserva en restaurante la Pitanza</title>
+<style>
+
+
+</style>
+<link rel="icon" href="../img/escarabajo.gif" type="image/gif" />
+</head>
+<body bgcolor="#e4eef2">
+<a name="Arriba"/>
+<h1 align="center"> La pitanza </h1>
+<table class="menu-superior"><tr align="center">
+<td><a href="../index.html">Presentación</a></td> <!-- index debe apuntar a ../ -->
+<td><a href="../html/menu.html">Menús</a></td>
+<td><a href="../html/reserva.html">Reserva</a></td>
+</tr>
+</table>
+
+<hr width="60%" />
+<br/>
+<!-- contenido del formulario-->
+<form type="GET" action="reserva.html">
+<table class="reserva">
+<tr>
+<td> Nombre </td>
+<td> <input type="text" name="nombre">
+</tr>
+<tr>
+<td> N. tarjeta </td>
+<td> <input type="text" name="tarjeta">
+</tr>
+<tr>
+<td> Fecha </td>
+<td> <!--input type="date" id="start" name="trip-start"
+       value="2023-03-22"
+       min="2023-01-01" max="2023-12-31"-->
+       <select name="anio">
+	        <option value="2023">2022</option>
+   		    <option value="2023">2023</option>
+   		    <option value="2023">2024</option>
+       		<option value="2023">2025</option>       
+       </select>
+       
+        <select name="mes">
+	     <option value='Enero'>Enero</option>
+<option value='Febrero'>Febrero</option>
+<option value='Marzo'>Marzo</option>
+<option value='Abril'>Abril</option>
+<option value='Mayo'>Mayo</option>
+<option value='Junio'>Junio</option>
+<option value='Julio'>Julio</option>
+<option value='Agosto'>Agosto</option>
+<option value='Septiembre'>Septiembre</option>
+<option value='Octubre'>Octubre</option>
+<option value='Noviembre'>Noviembre</option>
+<option value='Diciembre'>Diciembre</option>    
+       </select>
+       <select name="dia">
+       <option value='1'>1</option>
+<option value='2'>2</option>
+<option value='3'>3</option>
+<option value='4'>4</option>
+<option value='5'>5</option>
+<option value='6'>6</option>
+<option value='7'>7</option>
+<option value='8'>8</option>
+<option value='9'>9</option>
+<option value='10'>10</option>
+<option value='11'>11</option>
+<option value='12'>12</option>
+<option value='13'>13</option>
+<option value='14'>14</option>
+<option value='15'>15</option>
+<option value='16'>16</option>
+<option value='17'>17</option>
+<option value='18'>18</option>
+<option value='19'>19</option>
+<option value='20'>20</option>
+<option value='21'>21</option>
+<option value='22'>22</option>
+<option value='23'>23</option>
+<option value='24'>24</option>
+<option value='25'>25</option>
+<option value='26'>26</option>
+<option value='27'>27</option>
+<option value='28'>28</option>
+<option value='29'>29</option>
+<option value='30'>30</option>
+<option value='31'>31</option>
+       </select>
+      
+</tr>
+<tr>
+<td> Aviso: </td>
+<td> <textarea id="w3review" name="w3review" rows="4" cols="50">
+....
+</textarea>
+</tr>
+<tr>
+<td> Necesita parking </td>
+<td> <input type="checkbox" name="parking">
+</tr>
+<tr>
+<td> Zona </td>
+<td> <input type="radio" id="terraza" name="zona" value="terraza" checked><label for="terraza">Terraza</label>
+ <input type="radio" id="salon" name="zona" value="salon" ><label for="terraza">Sal&oacute;n</label>
+</tr>
+<tr height="100" valign="bottom"><td align="right" rowspan="2" ><input type="Submit" value="Enviar"></td>
+<td> <input type="Reset" value="Borrar"></td>
+</tr>
+</table>
+</form>
+<center>
+<a href="#Arriba"> Volver arriba</a>
+</center>
+<br/>
+<hr width="60%" />
+</body>
+</html>
